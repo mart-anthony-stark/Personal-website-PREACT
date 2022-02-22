@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --c-pri: black;
+  --c-text: #fff;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
