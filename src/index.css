@@ -1,7 +1,7 @@
 :root {
   --c-pri: black;
   --c-sec: #fff;
-  --accent: rgb(94, 70, 180);
+  --accent: rgb(95, 111, 255);
 }
 .light-theme {
   --c-pri: rgb(241, 241, 241);
