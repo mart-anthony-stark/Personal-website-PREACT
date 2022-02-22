@@ -1,20 +1,16 @@
-import { Logo } from './logo'
-
 export function App(props) {
   return (
     <>
-      <Logo />
-      <p>Hello Vite + Preact!</p>
-      <p>
-        <a
-          class="link"
-          href="https://preactjs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
-      </p>
+      <nav>
+        <h2 className="logo">M</h2>
+        <div className="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Skills</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
