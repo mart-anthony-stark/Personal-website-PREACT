@@ -2,7 +2,7 @@ nav {
   height: 70px;
   background: var(--c-pri);
   height: 60px;
-  color: var(--c-text);
+  color: var(--c-sec);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,5 +13,5 @@ nav .menu {
   gap: 25px;
 }
 nav .menu a {
-  color: var(--c-text);
+  color: var(--c-sec);
 }
