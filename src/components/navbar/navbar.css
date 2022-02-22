@@ -1,6 +1,17 @@
 nav {
-  height: 60px;
+  height: 70px;
   background: var(--c-pri);
   height: 60px;
+  color: var(--c-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+nav .menu {
+  display: flex;
+  gap: 25px;
+}
+nav .menu a {
   color: var(--c-text);
 }
