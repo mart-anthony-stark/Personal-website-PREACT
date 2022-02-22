@@ -1,11 +1,16 @@
+:root {
+  --c-pri: black;
+  --c-sec: #fff;
+  --accent: rgb(94, 70, 180);
+}
+.light-theme {
+  --c-pri: rgb(241, 241, 241);
+  --sec: rgb(32, 32, 32);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-:root {
-  --c-pri: black;
-  --c-text: #fff;
 }
 a {
   text-decoration: none;
