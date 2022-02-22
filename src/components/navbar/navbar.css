@@ -8,9 +8,12 @@ nav {
   align-items: center;
   padding: 0 50px;
 }
+nav .logo {
+  color: var(--accent);
+}
 nav .menu {
   display: flex;
-  gap: 25px;
+  gap: 35px;
 }
 nav .menu a {
   color: var(--c-sec);
