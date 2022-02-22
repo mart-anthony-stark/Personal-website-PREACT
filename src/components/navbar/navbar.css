@@ -15,3 +15,7 @@ nav .menu {
 nav .menu a {
   color: var(--c-sec);
 }
+nav .menu a:hover {
+  color: var(--accent);
+  transition: 0.2s ease-in-out;
+}
