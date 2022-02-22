@@ -1,9 +1,9 @@
-import './navbar.css'
+import "./navbar.css";
 
 export default function Navbar() {
   return (
     <nav>
-      <h2 className="logo">M</h2>
+      <h2 className="logo">Mart</h2>
       <div className="menu">
         <a href="#">Home</a>
         <a href="#">About</a>
