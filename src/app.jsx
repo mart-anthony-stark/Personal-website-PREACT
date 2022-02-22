@@ -1,9 +1,12 @@
-import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/Home";
+import Router from "preact-router";
 
 export function App(props) {
   return (
     <>
-      <Navbar></Navbar>
+      <Router>
+        <Home path="/" />
+      </Router>
     </>
   );
 }
