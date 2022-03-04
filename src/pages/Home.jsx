@@ -5,7 +5,9 @@ export default function Home(props) {
   return (
     <>
       <Navbar />
-      <Banner />
+      <main className="center-items">
+        <Banner />
+      </main>
     </>
   );
 }
