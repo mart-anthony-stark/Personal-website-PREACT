@@ -27,6 +27,12 @@ button {
 .col {
   flex-direction: column;
 }
+.gap-2 {
+  gap: 8px;
+}
+.gap-4 {
+  gap: 16px;
+}
 @keyframes typing {
   15%,
   20%,
