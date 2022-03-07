@@ -21,3 +21,8 @@
   overflow: hidden;
   animation: typing 4s linear 5s 1, borderBlink 4s linear infinite;
 }
+.banner .desc span::before {
+  content: "";
+  animation: changeText infinite 10s;
+  color: var(--accent);
+}
