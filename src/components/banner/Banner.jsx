@@ -1,6 +1,6 @@
 import "./banner.css";
 
-export default function Banner() {
+function Banner() {
   return (
     <>
       <div className="banner center-items col">
@@ -15,3 +15,5 @@ export default function Banner() {
     </>
   );
 }
+
+export default Banner;
