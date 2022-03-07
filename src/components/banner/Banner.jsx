@@ -15,7 +15,7 @@ export default function Banner() {
           <a
             href="https://github.com/mart-anthony-stark"
             target="_blank"
-            class="social-link"
+            class="social-link center-items gap-2"
           >
             <i class="fa fa-github-square" aria-hidden="true"></i>
             GitHub
@@ -23,7 +23,7 @@ export default function Banner() {
           <a
             href="https://github.com/mart-anthony-stark"
             target="_blank"
-            class="social-link"
+            class="social-link center-items gap-2"
           >
             <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             LinkedIn
@@ -31,7 +31,7 @@ export default function Banner() {
           <a
             href="https://github.com/mart-anthony-stark"
             target="_blank"
-            class="social-link"
+            class="social-link center-items gap-2"
           >
             <i class="fa fa-facebook-square" aria-hidden="true"></i>
             Facebook
