@@ -24,6 +24,11 @@ button {
   justify-content: center;
   align-items: center;
 }
+.left-items {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-start;
+}
 .col {
   flex-direction: column;
 }
