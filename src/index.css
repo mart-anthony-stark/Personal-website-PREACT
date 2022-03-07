@@ -24,10 +24,12 @@ button {
   justify-content: center;
   align-items: center;
 }
-.left-items {
-  display: flex;
-  justify-content: center;
+.justify-left {
   justify-content: flex-start;
+}
+.align-left {
+  display: flex;
+  align-items: flex-start;
 }
 .col {
   flex-direction: column;
