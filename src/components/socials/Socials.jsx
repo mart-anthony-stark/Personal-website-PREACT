@@ -2,7 +2,7 @@ import "./socials.css";
 
 const Socials = () => {
   return (
-    <div className="socials left-items col gap-2">
+    <div className="socials align-left col gap-2">
       <a
         href="https://github.com/mart-anthony-stark"
         target="_blank"
@@ -12,7 +12,7 @@ const Socials = () => {
         GitHub
       </a>
       <a
-        href="https://github.com/mart-anthony-stark"
+        href="https://www.linkedin.com/in/mart-anthony-salazar-420ba81b6/"
         target="_blank"
         class="social-link center-items gap-2"
       >
