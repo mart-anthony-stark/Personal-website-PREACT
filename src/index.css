@@ -27,3 +27,89 @@ button {
 .col {
   flex-direction: column;
 }
+@keyframes typing {
+  15%,
+  20%,
+  25%,
+  60%,
+  30%,
+  70%,
+  40%,
+  80% {
+    border: none;
+  }
+  16%,
+  21%,
+  26%,
+  61%,
+  31%,
+  71%,
+  41%,
+  81% {
+    border-right: 2px solid white;
+  }
+  0%,
+  10% {
+    width: 0%;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+@keyframes changeText {
+  0% {
+    content: "A Web Designer";
+  }
+  20% {
+    content: "A Web Developer";
+  }
+  40% {
+    content: "A Backend Developer";
+  }
+  60% {
+    content: "An IT Student";
+  }
+  100% {
+    content: "A Freelancer";
+  }
+  /* 100%{
+    content: '';
+  } */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes borderBlink {
+  15%,
+  20%,
+  25%,
+  60%,
+  30%,
+  70%,
+  40%,
+  80% {
+    border: none;
+  }
+  16%,
+  21%,
+  26%,
+  61%,
+  31%,
+  71%,
+  41%,
+  81% {
+    border-right: 2px solid white;
+  }
+}
