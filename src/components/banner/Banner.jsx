@@ -11,14 +11,24 @@ export default function Banner() {
         <h2 class="desc">
           I am <span></span>
         </h2>
-        <a
-          href="https://github.com/mart-anthony-stark"
-          target="_blank"
-          class="github"
-        >
-          <i class="fa fa-github-square" aria-hidden="true"></i>
-          GitHub
-        </a>
+        <div className="center-items">
+          <a
+            href="https://github.com/mart-anthony-stark"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+            GitHub
+          </a>
+          <a
+            href="https://github.com/mart-anthony-stark"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+            GitHub
+          </a>
+        </div>
         <a href="#profile" class="scroll-down">
           <span></span>
           <span></span>
