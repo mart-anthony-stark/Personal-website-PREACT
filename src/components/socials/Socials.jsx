@@ -20,7 +20,7 @@ const Socials = () => {
         LinkedIn
       </a>
       <a
-        href="https://github.com/mart-anthony-stark"
+        href="https://www.facebook.com/martanthony.abanosalazar/"
         target="_blank"
         class="social-link center-items gap-2"
       >
