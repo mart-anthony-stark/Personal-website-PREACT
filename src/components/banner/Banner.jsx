@@ -26,14 +26,17 @@ export default function Banner() {
             class="social-link"
           >
             <i class="fa fa-github-square" aria-hidden="true"></i>
-            GitHub
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/mart-anthony-stark"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+            Facebook
           </a>
         </div>
-        <a href="#profile" class="scroll-down">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
       </div>
     </>
   );
