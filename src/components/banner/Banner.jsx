@@ -11,7 +11,7 @@ export default function Banner() {
         <h2 class="desc">
           I am <span></span>
         </h2>
-        <div className="center-items">
+        <div className="center-items gap-2">
           <a
             href="https://github.com/mart-anthony-stark"
             target="_blank"
@@ -25,7 +25,7 @@ export default function Banner() {
             target="_blank"
             class="social-link"
           >
-            <i class="fa fa-github-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
             LinkedIn
           </a>
           <a
@@ -33,7 +33,7 @@ export default function Banner() {
             target="_blank"
             class="social-link"
           >
-            <i class="fa fa-github-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
             Facebook
           </a>
         </div>
