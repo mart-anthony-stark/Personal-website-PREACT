@@ -9,7 +9,6 @@ const Socials = () => {
         class="social-link center-items gap-2"
       >
         <i class="fa fa-github-square" aria-hidden="true"></i>
-        GitHub
       </a>
       <a
         href="https://www.linkedin.com/in/mart-anthony-salazar-420ba81b6/"
