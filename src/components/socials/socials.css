@@ -6,3 +6,9 @@
   border-bottom: 4px solid var(--c-pri);
   padding: 20px;
 }
+
+.socials .social-link {
+  padding: 10px 20px;
+  color: var(--accent);
+  border-radius: 5px;
+}
