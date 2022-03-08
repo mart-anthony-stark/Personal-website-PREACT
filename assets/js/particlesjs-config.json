@@ -48,13 +48,13 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
+      "color": "#000000",
+      "opacity": 0.31565905665290905,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 2,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -84,7 +84,7 @@
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0.4
         }
       },
       "bubble": {
@@ -95,7 +95,7 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 100,
         "duration": 0.4
       },
       "push": {
