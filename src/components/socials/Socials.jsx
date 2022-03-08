@@ -16,7 +16,7 @@ const Socials = () => {
         class="social-link center-items gap-2"
       >
         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        LinkedIn
+        
       </a>
       <a
         href="https://www.facebook.com/martanthony.abanosalazar/"
