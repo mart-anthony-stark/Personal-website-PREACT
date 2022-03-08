@@ -24,7 +24,7 @@ const Socials = () => {
         class="social-link center-items gap-2"
       >
         <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        Facebook
+        
       </a>
     </div>
   );
