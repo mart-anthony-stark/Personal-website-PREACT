@@ -12,3 +12,6 @@
   color: var(--accent);
   border-radius: 5px;
 }
+.socials .social-link i {
+  font-size: 25px;
+}
