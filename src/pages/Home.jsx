@@ -7,6 +7,7 @@ export default function Home(props) {
     <>
       <Navbar />
       <main className="center-items">
+        <div className="particles-js"></div>
         <Banner />
         <Socials />
       </main>
