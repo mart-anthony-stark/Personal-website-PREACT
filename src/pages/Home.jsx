@@ -4,10 +4,6 @@ import Socials from "../components/socials/Socials";
 import Particles from "preact-particles";
 
 export default function Home(props) {
-  const particlesInit = (main) => {
-    console.log(main);
-  };
-  const particlesLoaded = (container) => {};
   return (
     <>
       <Navbar />
@@ -15,8 +11,6 @@ export default function Home(props) {
         <Particles
           id="tsparticles"
           url="/assets/js/particlesjs-config.json"
-          init={particlesInit}
-          loaded={particlesLoaded}
         />
         <Banner />
         <Socials />
