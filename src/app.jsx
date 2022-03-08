@@ -1,6 +1,8 @@
-import Home from "./pages/Home";
+import lazy from "preact-lazy";
 import Router from "preact-router";
 import { useEffect } from "preact/hooks";
+
+const Home = lazy(() => import("./pages/Home"));
 
 export function App(props) {
   useEffect(() => {
