@@ -16,7 +16,11 @@ const Banner = () => {
         <h2 class="desc">
           I am <span></span>
         </h2>
-        <Button className="cta" onClick={downloadCV}>
+        <Button
+          className="cta"
+          onClick={downloadCV}
+          style={{ marginTop: "20px" }}
+        >
           View CV
         </Button>
       </div>
