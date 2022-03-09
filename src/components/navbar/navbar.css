@@ -18,9 +18,27 @@ nav .menu {
   gap: 35px;
 }
 nav .menu a {
+  position: relative;
   color: var(--c-sec);
 }
 nav .menu a:hover {
   color: var(--accent);
   transition: 0.2s ease-in-out;
+}
+nav .menu a::after {
+  content: "";
+  display: block;
+  background: var(--accent);
+  height: 3px;
+  width: 0%;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+nav .menu a.active::after {
+  content: "";
+  display: block;
+  background: var(--accent);
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
 }
