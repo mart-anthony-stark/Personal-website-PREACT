@@ -3,7 +3,7 @@ import "./banner.css";
 
 const Banner = () => {
   const downloadCV = () => {
-    console.log("Download");
+    window.open("assets/Resume-Mart-Anthony-Salazar.pdf");
   };
 
   return (
@@ -17,7 +17,7 @@ const Banner = () => {
           I am <span></span>
         </h2>
         <Button className="cta" onClick={downloadCV}>
-          Download CV
+          View CV
         </Button>
       </div>
     </>
