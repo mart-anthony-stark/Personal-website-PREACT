@@ -1,6 +1,24 @@
 import "./button.css";
 
 function Button({ children, ...rest }) {
+  let fontSize;
+  switch (rest.size) {
+    case "sm":
+      fontSize = "14px";
+      break;
+    case "md":
+      fontSize = "18px";
+      break;
+    case "lg":
+      fontSize = "24px";
+      break;
+    default:
+      fontSize = "16px";
+  }
+  rest.style = {
+    ...rest.style,
+    fontSize,
+  };
   return (
     <>
       <button
