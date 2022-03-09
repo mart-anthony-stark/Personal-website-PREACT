@@ -4,6 +4,7 @@ import { useEffect } from "preact/hooks";
 import Navbar from "./components/navbar/Navbar";
 
 const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
 
 export function App(props) {
   useEffect(() => {
@@ -46,6 +47,7 @@ export function App(props) {
       <Navbar />
       <Router>
         <Home path="/" />
+        <About path="/about" />
       </Router>
     </>
   );
