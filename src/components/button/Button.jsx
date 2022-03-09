@@ -1,9 +1,11 @@
 import "./button.css";
 
-function Button({ className="", id="",  }) {
+function Button({ className = "", id = "", children, onClick }) {
   return (
     <>
-      <button className={className} id={id}></button>
+      <button onClick={onClick} className={className} id={id}>
+        {children}
+      </button>
     </>
   );
 }
