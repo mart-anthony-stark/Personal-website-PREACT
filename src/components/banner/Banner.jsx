@@ -11,6 +11,7 @@ function Banner() {
         <h2 class="desc">
           I am <span></span>
         </h2>
+        <div className="cv">Download CV</div>
       </div>
     </>
   );
