@@ -126,6 +126,9 @@ button {
     border-right: 2px solid white;
   }
 }
+#tsparticles {
+  z-index: -1;
+}
 /* Cursor */
 
 #cursor {
