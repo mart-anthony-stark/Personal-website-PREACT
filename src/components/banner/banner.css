@@ -26,3 +26,10 @@
   animation: changeText infinite 10s;
   color: var(--accent);
 }
+.cv {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: #fff;
+}
