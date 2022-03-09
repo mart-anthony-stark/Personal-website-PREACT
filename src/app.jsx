@@ -1,6 +1,7 @@
 import lazy from "preact-lazy";
 import Router from "preact-router";
 import { useEffect } from "preact/hooks";
+import Navbar from "./components/navbar/Navbar";
 
 const Home = lazy(() => import("./pages/Home"));
 
@@ -42,6 +43,7 @@ export function App(props) {
   return (
     <>
       <div id="cursor"></div>
+      <Navbar />
       <Router>
         <Home path="/" />
       </Router>
