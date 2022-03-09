@@ -1,6 +1,6 @@
 import "./button.css";
 
-function Button({ children, ...rest }) {
+const Button = ({ children, ...rest }) => {
   let fontSize;
   switch (rest.size) {
     case "sm":
@@ -32,6 +32,6 @@ function Button({ children, ...rest }) {
       </button>
     </>
   );
-}
+};
 
 export default Button;
