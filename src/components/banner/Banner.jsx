@@ -1,7 +1,11 @@
 import Button from "../button/Button";
 import "./banner.css";
 
-function Banner() {
+const Banner = () => {
+  const downloadCV = () => {
+    console.log("Download");
+  };
+
   return (
     <>
       <div className="banner center-items col">
@@ -12,10 +16,12 @@ function Banner() {
         <h2 class="desc">
           I am <span></span>
         </h2>
-        <Button className="cta">Download CV</Button>
+        <Button className="cta" onClick={downloadCV}>
+          Download CV
+        </Button>
       </div>
     </>
   );
-}
+};
 
 export default Banner;
