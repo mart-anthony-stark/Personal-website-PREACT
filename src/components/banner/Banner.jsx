@@ -1,3 +1,4 @@
+import Button from "../button/Button";
 import "./banner.css";
 
 function Banner() {
@@ -11,7 +12,7 @@ function Banner() {
         <h2 class="desc">
           I am <span></span>
         </h2>
-        <div className="cv">Download CV</div>
+        <Button className="cta">Download CV</Button>
       </div>
     </>
   );
