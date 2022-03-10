@@ -1,6 +1,6 @@
 import "./styles/about.css";
 import { route } from "preact-router";
-import { Line } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 
@@ -23,21 +23,23 @@ const About = () => {
           <img src="/assets/SALAZAR.png" alt="Mart Anthony A. Salazar" />
         </div>
       </div>
-      <section>
-        <Line
+      <section id="skills">
+        <Doughnut
           datasetIdKey="id"
+          width="30p%"
           data={{
-            labels: ["Jun", "Jul", "Aug"],
+            labels: ["JavaScript", "Java", "C++", "Python"],
             datasets: [
               {
-                id: 1,
-                label: "",
-                data: [5, 6, 7],
-              },
-              {
-                id: 2,
-                label: "",
-                data: [3, 2, 1],
+                label: "Languages",
+                data: [98, 70, 60, 80],
+                backgroundColor: [
+                  "rgb(255, 205, 86)",
+                  "rgb(54, 162, 235)",
+                  "rgb(255, 99, 132)",
+                  "rgb(86, 255, 94)",
+                ],
+                hoverOffset: 4,
               },
             ],
           }}
