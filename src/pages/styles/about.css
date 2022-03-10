@@ -24,3 +24,8 @@
 .about .profile:hover img {
   transform: scale(1.2);
 }
+#skills > canvas {
+  position: relative;
+  max-width: 450px !important;
+  max-height: 450px !important;
+}
