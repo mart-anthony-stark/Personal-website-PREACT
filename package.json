@@ -8,10 +8,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "chart.js": "^3.7.1",
     "preact": "^10.5.15",
     "preact-lazy": "0.0.3",
     "preact-particles": "^1.41.6",
-    "preact-router": "^4.0.1"
+    "preact-router": "^4.0.1",
+    "react-chartjs-2": "^4.0.1"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.1.5",
