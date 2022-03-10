@@ -1,5 +1,8 @@
 import "./styles/about.css";
 import { route } from "preact-router";
+import { Line } from "react-chartjs-2";
+import { Chart, registerables } from "chart.js";
+Chart.register(...registerables);
 
 const About = () => {
   return (
@@ -20,7 +23,26 @@ const About = () => {
           <img src="/assets/SALAZAR.png" alt="Mart Anthony A. Salazar" />
         </div>
       </div>
-      <section></section>
+      <section>
+        <Line
+          datasetIdKey="id"
+          data={{
+            labels: ["Jun", "Jul", "Aug"],
+            datasets: [
+              {
+                id: 1,
+                label: "",
+                data: [5, 6, 7],
+              },
+              {
+                id: 2,
+                label: "",
+                data: [3, 2, 1],
+              },
+            ],
+          }}
+        />
+      </section>
     </>
   );
 };
