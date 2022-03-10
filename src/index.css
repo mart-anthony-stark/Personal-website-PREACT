@@ -43,7 +43,7 @@ button {
 .gap-4 {
   gap: 16px;
 }
-.section {
+section {
   min-height: 100vh;
 }
 @keyframes typing {
