@@ -4,15 +4,9 @@ import Particles from "preact-particles";
 import { route } from "preact-router";
 
 const Home = (props) => {
-  const handleMouseWheel = (e) => {
-    if (e.wheelDeltaY == -120) {
-      route("/about");
-    }
-  };
-
   return (
     <>
-      <main className="center-items" onWheel={handleMouseWheel}>
+      <main className="center-items">
         <Particles id="tsparticles" url="/assets/js/particlesjs-config.json" />
         <Banner />
         <Socials />
