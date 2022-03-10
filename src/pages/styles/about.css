@@ -1,3 +1,22 @@
 .about {
   min-height: calc(100vh - 60px);
+  gap: 50px;
+  padding: 20px;
+}
+.about .intro {
+  max-width: 600px;
+  width: 100%;
+  text-align: justify;
+}
+.about .profile {
+  position: relative;
+  overflow: hidden;
+  max-width: 300px;
+  height: 300px;
+  width: 100%;
+  border-radius: 100%;
+  border: 5px solid black;
+}
+.about .profile img {
+  width: 100%;
 }
