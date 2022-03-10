@@ -10,7 +10,7 @@ export function App(props) {
   useEffect(() => {
     const cursor = document.querySelector("#cursor");
     function followCursor(e) {
-      cursor.style.top = e.clientY + "px";
+      cursor.style.top = e.clientY + window.scrollY + "px";
       cursor.style.left = e.clientX + "px";
     }
     function parallax(e) {
