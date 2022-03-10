@@ -20,6 +20,7 @@ const About = () => {
           <img src="/assets/SALAZAR.png" alt="Mart Anthony A. Salazar" />
         </div>
       </div>
+      <section></section>
     </>
   );
 };
