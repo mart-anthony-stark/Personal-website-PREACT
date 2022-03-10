@@ -1,7 +1,7 @@
 import "./styles/about.css";
-import { route } from "preact-router";
 import { Doughnut } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
+import "chartjs-plugin-datalabels";
 Chart.register(...registerables);
 
 const About = () => {
@@ -26,8 +26,16 @@ const About = () => {
       <section id="skills">
         <Doughnut
           datasetIdKey="id"
-          width="30p%"
+          options={{
+            plugins: {
+              title: {
+                display: true,
+                text: "Programming Language Proficiency",
+              }
+            },
+          }}
           data={{
+            title: "a",
             labels: ["JavaScript", "Java", "C++", "Python"],
             datasets: [
               {
