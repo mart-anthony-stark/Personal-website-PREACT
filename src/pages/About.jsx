@@ -17,7 +17,7 @@ const About = () => {
           development and still learning things to grow in the tech industry.
         </div>
         <div className="profile">
-          <img src="/assets/SALAZAR.png" alt="" />
+          <img src="/assets/SALAZAR.png" alt="Mart Anthony A. Salazar" />
         </div>
       </div>
     </>
