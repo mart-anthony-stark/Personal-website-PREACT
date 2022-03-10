@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "chart.js": "^3.7.1",
+    "chartjs-plugin-datalabels": "^2.0.0",
+    "install": "^0.13.0",
+    "npm": "^8.5.3",
     "preact": "^10.5.15",
     "preact-lazy": "0.0.3",
     "preact-particles": "^1.41.6",
