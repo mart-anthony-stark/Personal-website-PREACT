@@ -12,9 +12,12 @@ export default function Navbar() {
         <Link activeClassName="active" href="/about">
           About
         </Link>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <Link activeClassName="active" href="/projects">
+          Projects
+        </Link>
+        <Link activeClassName="active" href="/Contact">
+          Contact
+        </Link>
       </div>
     </nav>
   );
