@@ -1,9 +1,17 @@
+import "./styles/projects.css";
+
 const Projects = () => {
   return (
     <div className="projects">
-      {projects.map((project) => {
-        return <img src={project.img} />;
-      })}
+      <div className="container">
+        {projects.map((project) => {
+          return (
+            <div className="project">
+              <img src={project.img} />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
