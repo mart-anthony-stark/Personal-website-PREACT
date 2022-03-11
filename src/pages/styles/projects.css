@@ -6,8 +6,15 @@
 .projects .project {
   max-width: 400px;
   height: 300px;
+  overflow: hidden;
 }
 .projects .project img {
   width: 100%;
   height: 100%;
+  transition: 0.5s ease;
+}
+.projects .project:hover img {
+  width: 90%;
+  height: 90%;
+  transform: skew(5deg);
 }
