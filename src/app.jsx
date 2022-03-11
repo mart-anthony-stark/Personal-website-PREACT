@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
+const Projects = lazy(() => import("./pages/Projects"));
 
 export function App(props) {
   useEffect(() => {
@@ -48,6 +49,7 @@ export function App(props) {
       <Router>
         <Home path="/" />
         <About path="/about" />
+        <Projects path="/projects" />
       </Router>
     </>
   );
