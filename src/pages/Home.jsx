@@ -1,6 +1,7 @@
 import Banner from "../components/banner/Banner";
 import Socials from "../components/socials/Socials";
 import Particles from "preact-particles";
+import About from "../pages/About";
 import { route } from "preact-router";
 
 const Home = (props) => {
@@ -11,6 +12,7 @@ const Home = (props) => {
         <Banner />
         <Socials />
       </main>
+      <About />
     </>
   );
 };
