@@ -1,5 +1,5 @@
 .socials {
-  position: fixed;
+  position: absolute;
   bottom: 30px;
   left: 30px;
   border-left: 4px solid var(--c-pri);
