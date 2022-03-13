@@ -50,6 +50,7 @@ export function App(props) {
         <Home path="/" />
         <About path="/about" />
         <Projects path="/projects" />
+        <Home path="/projects/:id" />
       </Router>
     </>
   );
