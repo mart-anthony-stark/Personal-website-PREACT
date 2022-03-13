@@ -1,12 +1,21 @@
+import { route } from "preact-router";
 import "./styles/projects.css";
 
 const Projects = () => {
+  const handleClick = (project) => {
+    console.log(project);
+    route(`/projects/${project.id}`);
+  };
   return (
     <div className="projects">
       <div className="container">
         {projects.map((project) => {
           return (
-            <div className="project" key={project.id}>
+            <div
+              onClick={() => handleClick(project)}
+              className="project"
+              key={project.id}
+            >
               <img src={project.img} />
             </div>
           );
