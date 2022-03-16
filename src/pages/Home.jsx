@@ -3,6 +3,7 @@ import Socials from "../components/socials/Socials";
 import Particles from "preact-particles";
 import About from "../pages/About";
 import { route } from "preact-router";
+import "./styles/home.css";
 
 const Home = (props) => {
   return (

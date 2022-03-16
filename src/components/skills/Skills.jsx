@@ -2,6 +2,7 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
 import "chartjs-plugin-datalabels";
 Chart.register(...registerables);
+import './skills.css'
 
 const Skills = () => {
   return (

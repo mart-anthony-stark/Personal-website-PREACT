@@ -2,6 +2,8 @@
   min-height: calc(100vh - 60px);
   gap: 50px;
   padding: 20px;
+  background: var(--c-pri);
+  color: var(--c-sec);
 }
 .about .intro {
   max-width: 600px;
